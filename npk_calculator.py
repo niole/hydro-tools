@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
     if args.x is None:
         if args.target is None:
-            raise Exception('Define the target when calculating x for input soluions')
+            raise Exception('Provide --target when calculating x for --inputs')
 
         print(solve_for_multiples(inputs, args.target))
     else:
